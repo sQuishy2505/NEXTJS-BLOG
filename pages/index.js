@@ -5,7 +5,7 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 
-export default function Home() {
+export default function Home({ allPostsData }) {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col items-center">
       <Head>
